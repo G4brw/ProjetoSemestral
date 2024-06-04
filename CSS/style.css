@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 3300px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+/* CSS para Home */
+
+.menu{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 77px;
+    border: 3px solid rgb(255, 255, 255);
+}
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+li {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 200px;
+    border: 3px solid rgb(217, 217, 217);  
+}
+.container footer {
+    width: 100%;
+    height: 100px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.divisao {
+    width:100% ;
+    height: 800px;
+    border: 3px solid rgb(217, 217, 217);
+}
+.divisao1 {
+    background-image: url(../IMG/MotoHome.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width:100% ;
+    height: 800px;
+    border: 3px solid rgb(217, 217, 217);
+}
+.email-entrar {
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-entrar input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+.email-entrar button {
+    background: #575757;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.home {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+   }
+   .home h1 {
+       font-size: 60px;
+       line-height: 70px;
+       font-weight: 600;
+       max-width: 650px;
+   }
+   .home h3 {
+       font-weight: 400;
+       margin-bottom: 20px;
+   }
+
+/* CSS dos produtos */
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 96%;
+    margin: 40px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+.container-filhas {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    height: 650px;
+}
+
+.filha {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 23%;
+    height: 600px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.filha img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.filha .imagem-texto {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.filha .imagem-texto img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.filha .imagem-texto p {
+    margin: 0;
+}
+.preço {
+font-size: 100%;
+text-decoration: line-through;
+
+/* CSS "Sobre" */
+
+}
+.linha-do-tempo {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #9f9f9f;
+    color: white;
+  }
+
+  
+  .evento {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    top: -9px;
+    transform: translateX(-50%);
+  }
+
+  
+  .descricao-evento {
+    position: absolute;
+    top: 30px;
+    width: 200px;
+    text-align: center;
+    transform: translateX(-50%);
+  }
+  .divisao2 {
+    background-image: url(../IMG/Fundo\,png.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width:100%;
+    height: 800px;
+    border-bottom: 7px solid white;
+  }
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 96%;
+    margin: 40px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  /* CSS "Rodapé" */
+.footer {
+    background-color: black;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin:40px;
+}
+.col{
+    padding: 0px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.col img {
+    height: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+.col a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* CSS de respon
